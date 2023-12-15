@@ -6,8 +6,8 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 const MyImageGallery = () => {
   const images = [
     {
-      original: '/images/slider-image-1.jpg',
-      thumbnail: '/images/slider-image-1.jpg',
+      original: '/images/slider-image-2.jpg',
+      thumbnail: '/images/slider-image-2.jpg',
       description: 'slide image 1',
     },
     {

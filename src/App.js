@@ -8,19 +8,27 @@ import AboutPage from './AboutPage';
 import MyImageGallery from './MyImageGallery';
 import ContactPage from './ContactPage';
 import Header from './Header';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import FactoryGallery from './FactoryGallery'; // Import FactoryGallery
+import ProjectsGallery from './ProjectsGallery'; // Import ProjectsGallery
+// ... other imports
 
 const App = () => {
   return (
     <Router>
-      <div>
-        <Header />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/gallery" element={<MyImageGallery />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/about" element={<AboutPage />} />
-        </Routes>
-      </div>
+      <Header />
+      <Routes>
+        
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/projects/gallery" element={<ProjectsGallery />} />
+        <Route path="/gallery/:product" element={<MyImageGallery />} />
+        <Route path="/factory/gallery" element={<FactoryGallery />} /> // Use the imported FactoryGallery
+        <Route path="/projects/gallery" element={<ProjectsGallery />} /> // Use the imported ProjectsGallery
+        <Route path="/contact" element={<ContactPage />} />
+        {/* ... other routes */}
+      </Routes>
     </Router>
   );
 };
