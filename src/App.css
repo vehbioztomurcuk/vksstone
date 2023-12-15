@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  color: #333;
+}
+
+.content {
+  padding: 20px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styles for the image gallery */
+.image-gallery {
+  text-align: center;
+}
+
+/* Specific styles for the contact page */
+.contact-info {
+  padding: 10px 0;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
