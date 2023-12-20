@@ -20,10 +20,10 @@ const HomeSlider = () => {
     <div className="home-slider">
       <Slider {...settings}>
         <div>
-          <img src="/images/slider-image-2.jpg" alt="Slide 1" />
+          <img src="/home/user1/github-projects/vksstone-website/src/images/slider-image-3.jpg" alt="Slide 1" />
         </div>
         <div>
-          <img src="/images/slider-image-2.jpg" alt="Slide 2" />
+          <img src="/home/user1/github-projects/vksstone-website/src/images/slider-image-4.jpg" alt="Slide 2" />
         </div>
         {/* Add more slides as needed */}
       </Slider>

@@ -6,14 +6,24 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 const MyImageGallery = () => {
   const images = [
     {
-      original: '/images/slider-image-2.jpg',
-      thumbnail: '/images/slider-image-2.jpg',
+      original: require('/home/user1/github-projects/vksstone-website/src/images/slider-image-2.jpg'), 
+      thumbnail: require('/home/user1/github-projects/vksstone-website/src/images/slider-image-2.jpg'), 
       description: 'slide image 1',
     },
     {
-      original: '/images/slider-image-2.jpg',
-      thumbnail: '/images/slider-image-2.jpg',
+      original: require('/home/user1/github-projects/vksstone-website/src/images/slider-image-3.jpg'), 
+      thumbnail: require('/home/user1/github-projects/vksstone-website/src/images/slider-image-3.jpg'), 
       description: 'slider image 2',
+    },
+    {
+      original: require('/home/user1/github-projects/vksstone-website/src/images/slider-image-4.jpg'), 
+      thumbnail: require('/home/user1/github-projects/vksstone-website/src/images/slider-image-4.jpg'), 
+      description: 'slider image 3',
+    },
+    {
+      original: require('/home/user1/github-projects/vksstone-website/src/images/slider-image-5.jpg'), 
+      thumbnail: require('/home/user1/github-projects/vksstone-website/src/images/slider-image-5.jpg'), 
+      description: 'slider image 4',
     },
     // Add more images as needed
   ];

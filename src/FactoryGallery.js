@@ -5,7 +5,7 @@ const FactoryGallery = () => {
   // Example content - replace with actual image paths and descriptions
   const factoryImages = [
     {
-      src: '/images/slider-image-2.jpg',
+      src: require('./images/hq-marble-2.jpg'),
       description: 'Factory Image 1 Description',
     },
     // ... more images
