@@ -36,7 +36,6 @@ const BackgroundSlider = () => {
                 backgroundPosition: 'center',
               }}
             >
-              <div className='slider-text'>{image.text}</div>
             </div>
           </div>
         ))}
