@@ -14,24 +14,39 @@ body, html {
 
 /* Styling for the header navigation */
 header {
-  background-color: #20232a;
-  color: #61dafb;
-  padding: 1rem 0;
+  background-color: rgba(255, 255, 255, 0.8); /* Apply a background color with transparency */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Center the logo and menu items */
+  backdrop-filter: blur(10px); /* Apply a blur effect to the header */
+  font-family: 'Roboto Slab', sans-serif; /* Use Roboto Slab font */
 }
+
+.logo {
+  max-width: 200px; /* Adjust the size as needed */
+  transform: scale(0.5);
+}
+
 
 nav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
-  gap: 15px;
 }
 
 nav ul li {
-  padding: 0.5rem 1rem;
+  margin: 0 10px;
+  position: relative; /* Create space for dropdown menus */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Font color */
 }
 
 nav a {
-  color: #61dafb;
+  color: #333; /* Font color */
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -143,22 +158,24 @@ nav a:hover {
 
 /* Reset list styles for dropdown and set layout */
 .dropdown {
-  display: none; /* Hide by default, will be shown on hover */
-  position: absolute; /* Positioning relative to the parent item */
-  background-color: #f9f9f9; /* Light background for the dropdown */
-  min-width: 160px; /* Minimum width of the dropdown */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
-  z-index: 1; /* Ensure it's above other items */
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff; /* Background color for dropdown items */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  z-index: 1; /* Ensure the dropdown appears above other content */
 }
 
 /* Style for dropdown items */
 .dropdown li {
   display: block; /* Dropdown items should stack vertically */
   color: black;
-  padding: 12px 16px; /* Padding for spacing */
+  padding: 10px;
   text-decoration: none; /* No underline */
   background-color: white; /* Background for dropdown items */
   border-bottom: 1px solid #ddd; /* Separator between items */
+  
 }
 
 /* Hover state for dropdown items */
@@ -217,4 +234,12 @@ nav ul li:hover .dropdown {
   border-radius: 10px;
 }
 
+.nav-container {
+  display: flex;
+  align-items: center;
+}
 
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
