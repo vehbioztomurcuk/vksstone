@@ -3,11 +3,14 @@ import React from 'react';
 import HomeSlider from './HomeSlider';
 import InfoBox from './InfoBox';
 import Footer from './Footer';
+import BackgroundSlider from "/home/user1/github-projects/vksstone-website/src/BackgroundSlider.js";
+
+
 
 const HomePage = () => {
   return (
     <div>
-      <HomeSlider />
+      <BackgroundSlider />
       <div className="info-boxes">
         <InfoBox title="Product 1" text="Details about Product 1" />
         <InfoBox title="Product 2" text="Details about Product 2" />

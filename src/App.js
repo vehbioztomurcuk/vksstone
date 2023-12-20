@@ -12,6 +12,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FactoryGallery from './FactoryGallery'; // Import FactoryGallery
 import ProjectsGallery from './ProjectsGallery'; // Import ProjectsGallery
+import CompaniesPage from './CompaniesPage';
+
 // ... other imports
 
 const App = () => {
@@ -27,6 +29,8 @@ const App = () => {
         <Route path="/factory/gallery" element={<FactoryGallery />} /> // Use the imported FactoryGallery
         <Route path="/projects/gallery" element={<ProjectsGallery />} /> // Use the imported ProjectsGallery
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/companies" element={<CompaniesPage />} />
+
         {/* ... other routes */}
       </Routes>
     </Router>
