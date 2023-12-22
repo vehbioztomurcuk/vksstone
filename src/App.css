@@ -243,3 +243,14 @@ nav ul li:hover .dropdown {
   display: flex;
   align-items: center;
 }
+
+.gallery-image {
+  position: relative;
+}
+
+
+@media (max-width: 768px) {
+  .gallery-image {
+    width: 100%;
+  }
+}

@@ -23,7 +23,7 @@ const Header = () => {
               onMouseEnter={() => setShowDropdownGallery(true)}
               onMouseLeave={() => setShowDropdownGallery(false)}
             >
-              Gallery
+               <Link>Gallery</Link> 
               {showDropdownGallery && (
                 <ul className="dropdown">
                   <li>
