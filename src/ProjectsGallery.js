@@ -5,7 +5,7 @@ const ProjectsGallery = () => {
   // Example content - replace with actual image paths and descriptions
   const projectImages = [
     {
-      src: require('/home/user1/github-projects/vksstone-website/src/images/hq-marble-2.jpg'),
+      src: require('./images/hq-marble-2.jpg'),
       description: 'Project Image 1 Description',
     },
     // ... more images

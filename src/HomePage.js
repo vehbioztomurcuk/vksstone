@@ -3,7 +3,7 @@ import React from 'react';
 import HomeSlider from './HomeSlider';
 import InfoBox from './InfoBox';
 import Footer from './Footer';
-import BackgroundSlider from "/home/user1/github-projects/vksstone-website/src/BackgroundSlider.js";
+import BackgroundSlider from "./BackgroundSlider.js";
 
 
 

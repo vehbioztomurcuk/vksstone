@@ -4,8 +4,8 @@ import Slider from 'react-slick';
 import "./App.css";
 
 const images = [
-  { src: require('/home/user1/github-projects/vksstone-website/src/images/hq-marble-1.jpg'), text: 'Welcome to VKSStone' },
-  { src: require('/home/user1/github-projects/vksstone-website/src/images/hq-marble-2.jpg'), text: 'Welcome to VKSStone 2' },
+  { src: require('./images/hq-marble-1.jpg'), text: 'Welcome to VKSStone' },
+  { src: require('./images/hq-marble-2.jpg'), text: 'Welcome to VKSStone 2' },
   // Add more images and texts as needed
 ];
 
