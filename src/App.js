@@ -12,12 +12,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FactoryGallery from './FactoryGallery'; // Import FactoryGallery
 import ProjectsGallery from './ProjectsGallery'; // Import ProjectsGallery
+import HomePageText from "/home/user1/github-projects/vksstone/src/HomePageText.js";
 // ... other imports
 
 const App = () => {
   return (
     <Router>
       <Header />
+      <HomePageText />
       <Routes>
         
         <Route path="/" element={<HomePage />} />

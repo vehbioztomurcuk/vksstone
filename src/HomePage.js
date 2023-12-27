@@ -3,6 +3,8 @@ import React from 'react';
 import HomeSlider from './HomeSlider';
 import InfoBox from './InfoBox';
 import Footer from './Footer';
+import "/home/user1/github-projects/vksstone/src/App.css";
+
 
 const HomePage = () => {
   return (

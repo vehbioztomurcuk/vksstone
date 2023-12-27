@@ -2,6 +2,7 @@
 import React from 'react';
 import Gallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
+import './App.css';
 
 const MyImageGallery = () => {
   const images = [
@@ -19,12 +20,16 @@ const MyImageGallery = () => {
   ];
 
   return (
-    <div>
-      <h2>My React Image Gallery</h2>
-      <Gallery items={images} />
+    <div className="product-page-container">
+      <div className="scaled-gallery">
+        <Gallery items={images} />
+      </div>
+      <div className="product-info">
+        <h2>Product Information</h2>
+        <p>Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details..Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details. Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details..Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details.Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details..Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details.. Here you can add all the product details... Here you can add all the product details..</p>
+      </div>
     </div>
   );
 };
 
 export default MyImageGallery;
-

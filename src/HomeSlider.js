@@ -1,6 +1,9 @@
 // src/HomeSlider.js
 import React from 'react';
 import Slider from 'react-slick';
+import "/home/user1/github-projects/vksstone/src/App.css";
+import HomePageText from "/home/user1/github-projects/vksstone/src/HomePageText.js";
+
 
 const HomeSlider = () => {
   const settings = {
@@ -27,6 +30,7 @@ const HomeSlider = () => {
         </div>
         {/* Add more slides as needed */}
       </Slider>
+
     </div>
   );
 };
